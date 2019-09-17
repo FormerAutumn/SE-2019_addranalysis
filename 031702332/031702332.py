@@ -6,7 +6,6 @@
 
 import re
 import json
-import requests
 
 
 # In[16]:
@@ -220,6 +219,7 @@ def _analysis_lv7(s):
 
 
 def _auto_geo_completion(_address):
+    import requests
     _my_key = '02bfc9bce6b516fbf370e753cd56216f'
     
     _parameters_1 = { 'key':_my_key, 'address':_address }
@@ -279,5 +279,8 @@ def address_analysis():
 # In[57]:
 
 
-address_analysis()
+def main():
+    address_analysis()
+
+main()
 
