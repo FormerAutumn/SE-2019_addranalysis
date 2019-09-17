@@ -273,7 +273,7 @@ def address_analysis():
         _more_detail = _analysis_lv7(_res)
         _json_info['地址'] = _addr + _more_detail
     
-    print(_json_info)
+    print(json.dumps(_json_info, ensure_ascii=False))
 
 
 # In[57]:
