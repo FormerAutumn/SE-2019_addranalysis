@@ -1,12 +1,10 @@
-
-# coding: utf-8
+#-*- coding: utf-8 -*-
 
 # In[36]:
 
 
 import re
 import json
-# -*- coding:utf8 -*-
 
 # In[16]:
 
